@@ -153,3 +153,12 @@ tbody > tr:nth-child(6) > td:nth-child(4), tbody > tr:nth-child(5) > td:nth-chil
 tbody > tr:nth-child(6) > td:nth-child(6), tbody > tr:nth-child(4) > td:nth-child(2), tbody > tr:nth-child(3) > td:nth-child(5) {
     background-color: aqua;
 }
+tbody > tr:nth-child(odd) > td:nth-child(odd):hover, tbody > tr:nth-child(even) > td:nth-child(even):hover {
+    background-color: rgb(170, 255, 0);
+    border: double 1px rgb(30, 255, 0);
+    box-shadow: /* inset 6px -6px 5px rgba(0,0,0,0.7) */
+             /*    inset -12px 12px 10px rgba(0,0,0,0.7) */
+                /* inset -6px 6px 5px rgba(0,0,0,0.7) */
+                inset 12px 12px 30px rgba(0,0,0,0.7);
+    
+}
